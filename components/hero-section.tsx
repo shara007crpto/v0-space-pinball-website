@@ -69,7 +69,7 @@ export function HeroSection() {
                 alt="Space Pinball Logo"
                 width={600}
                 height={400}
-                className="relative z-10 float-animation max-w-full h-auto"
+                className="relative z-10 float-animation max-w-full h-auto bg-transparent"
                 priority
               />
             </div>
