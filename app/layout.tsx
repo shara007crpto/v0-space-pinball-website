@@ -31,6 +31,14 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans ${inter.variable} antialiased`}>
         <div className="stars-bg"></div>
+        <div className="rocket rocket-1">🚀</div>
+        <div className="rocket rocket-2">🚀</div>
+        <div className="rocket rocket-3">🚀</div>
+        <div className="rocket rocket-4">🚀</div>
+        <div className="rocket rocket-5">🚀</div>
+        <div className="rocket rocket-6">🚀</div>
+        <div className="rocket rocket-7">🚀</div>
+        <div className="rocket rocket-8">🚀</div>
         <Suspense fallback={null}>{children}</Suspense>
       </body>
     </html>

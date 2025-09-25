@@ -1,7 +1,6 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
 import { ArrowRight, Play, Coins } from "lucide-react"
 import Image from "next/image"
 
@@ -47,17 +46,6 @@ export function HeroSection() {
                 <Coins className="mr-2 h-5 w-5" />
                 Buy $SPIN
               </Button>
-            </div>
-
-            <div className="grid grid-cols-2 gap-6 pt-8">
-              <Card className="p-4 text-center bg-card/50 backdrop-blur-sm border-primary/20">
-                <div className="text-2xl font-bold text-primary">1M+</div>
-                <div className="text-sm text-muted-foreground">Players</div>
-              </Card>
-              <Card className="p-4 text-center bg-card/50 backdrop-blur-sm border-accent/20">
-                <div className="text-2xl font-bold text-accent">24/7</div>
-                <div className="text-sm text-muted-foreground">Gaming</div>
-              </Card>
             </div>
           </div>
 

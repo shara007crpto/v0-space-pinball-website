@@ -5,26 +5,7 @@ import { Rocket } from "lucide-react"
 
 export function CAannouncement() {
   return (
-    <section className="relative py-8 px-4 overflow-hidden">
-      {/* Flying Rockets Background */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="rocket rocket-1">
-          <Rocket className="h-6 w-6 text-primary rotate-45" />
-        </div>
-        <div className="rocket rocket-2">
-          <Rocket className="h-5 w-5 text-accent rotate-45" />
-        </div>
-        <div className="rocket rocket-3">
-          <Rocket className="h-7 w-7 text-secondary rotate-45" />
-        </div>
-        <div className="rocket rocket-4">
-          <Rocket className="h-4 w-4 text-primary rotate-45" />
-        </div>
-        <div className="rocket rocket-5">
-          <Rocket className="h-6 w-6 text-accent rotate-45" />
-        </div>
-      </div>
-
+    <section className="relative py-8 px-4">
       <div className="container mx-auto max-w-4xl relative z-10">
         <Card className="p-6 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 backdrop-blur-sm border-primary/30 glow-border">
           <div className="text-center space-y-3">
