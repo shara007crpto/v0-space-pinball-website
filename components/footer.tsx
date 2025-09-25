@@ -6,6 +6,10 @@ import { Twitter, MessageCircle, Github, ExternalLink } from "lucide-react"
 import Image from "next/image"
 
 export function Footer() {
+  const handleBuyClick = () => {
+    window.open("https://pump.fun/board", "_blank", "noopener,noreferrer")
+  }
+
   return (
     <footer className="py-20 px-4 border-t border-border/20">
       <div className="container mx-auto max-w-7xl">
@@ -56,7 +60,7 @@ export function Footer() {
               Get your $SPIN tokens and start your cosmic pinball adventure today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="flex-1 glow-animation">
+              <Button className="flex-1 glow-animation" onClick={handleBuyClick}>
                 <ExternalLink className="mr-2 h-4 w-4" />
                 Buy $SPIN
               </Button>

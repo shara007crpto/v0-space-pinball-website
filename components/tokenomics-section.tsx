@@ -6,6 +6,10 @@ import { Coins, TrendingUp, Users } from "lucide-react"
 import Image from "next/image"
 
 export function TokenomicsSection() {
+  const handleBuyClick = () => {
+    window.open("https://pump.fun/board", "_blank", "noopener,noreferrer")
+  }
+
   return (
     <section className="py-20 px-4">
       <div className="container mx-auto max-w-7xl">
@@ -125,7 +129,7 @@ export function TokenomicsSection() {
         </div>
 
         <div className="text-center mt-16">
-          <Button size="lg" className="text-lg px-8 py-6 glow-animation">
+          <Button size="lg" className="text-lg px-8 py-6 glow-animation" onClick={handleBuyClick}>
             <Coins className="mr-2 h-5 w-5" />
             Buy $SPIN Now
           </Button>
